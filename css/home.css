@@ -54,7 +54,7 @@ nav {
 /* This is for the sub menus*/
 .menu ul {
   display: none;
-  background-color: #958475;
+  background-color: #232328;
   list-style: none;
   padding-left: 20px;
 }
@@ -71,6 +71,18 @@ nav {
   color: #fbfbfb;
   text-decoration: none;
 }
+
+.submenu-parent:hover .submenu {
+    display: block;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Adjust as needed */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust as needed */
+}
+
 
 
 
